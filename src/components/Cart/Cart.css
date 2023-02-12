@@ -1,0 +1,17 @@
+.cart {
+  position: sticky;
+  top: 0;
+}
+
+.cart > h4 {
+  color: #1c2b35;
+  font-size: 25px;
+  font-weight: 400;
+}
+.cart > p {
+  color: #2a414f;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /* font-size: 17px;
+  line-height: 20px; */
+}
