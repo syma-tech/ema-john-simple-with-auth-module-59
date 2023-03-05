@@ -1,0 +1,63 @@
+/* login-card */
+.form-container {
+  width: 500px;
+  height: 600px;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  margin: auto;
+  padding: 42px;
+}
+
+/* Login */
+
+.form-title {
+  /* H2 */
+  text-align: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  /* identical to box height */
+}
+.form-control label {
+  display: block;
+  margin: 20px 0 9px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+
+  color: #2a414f;
+}
+.form-control input {
+  font-size: 1.5em;
+  width: 415px;
+  height: 55px;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+  /* padding: 10px; */
+}
+.form-control .btn-submit {
+  width: 415px;
+  height: 55px;
+  background: rgba(255, 153, 0, 0.3);
+  border-radius: 5px;
+  border: 0;
+  margin-top: 44px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  color: #0e161a;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+
+.btn-submit:hover {
+  background: rgba(255, 153, 0, 0.596);
+}
